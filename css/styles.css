@@ -70,5 +70,85 @@ header h2 {
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 0 30px 20 0;
+    padding: 0 30px 30px 0;
+}
+
+main{
+    
+    
+    width:80% ;
+    margin:0 auto ;
+    box-shadow: 5px 10px 12px #39393944;
+    border: 1px solid #aaa;
+    display: flex;
+    flex-direction :row;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+.content{
+
+    width: 24em;
+    margin: 10px;
+    /* border: 2px solid black; */
+    position: relative;
+    
+}
+
+.img-wrapper{
+
+    width: 20em;
+    
+    margin: 0 auto;
+}
+
+.img-wrapper img{
+
+    display: block;
+    max-width: 100%;
+}
+
+.overlay{
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 20px;
+    opacity: 0;
+    background:linear-gradient( to bottom ,#f9f9f9,#0a0a0a);
+    color:#fff;
+    font-weight: 600;
+    transition: all 200ms ease-in-out;
+}
+
+.overlay:hover{
+
+    opacity: 1;
+
+}
+
+.icon {
+    padding: 5px;
+    font-size: 1.6em;
+}
+
+.icon:hover{
+
+    color: tomato;
+}
+
+.social ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+}
+
+.social ul a {
+
+    text-decoration: none;
 }
