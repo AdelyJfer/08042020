@@ -4,6 +4,21 @@ body{
     font-family: sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+ul{
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h4{
+
+    margin-bottom: 10px;
+}
 nav ul {
     margin: 0;
     padding: 0;
@@ -77,7 +92,7 @@ main{
     
     
     width:80% ;
-    margin:0 auto ;
+    margin:60px auto ;
     box-shadow: 5px 10px 12px #39393944;
     border: 1px solid #aaa;
     display: flex;
@@ -148,7 +163,37 @@ main{
     display: flex;
 }
 
+footer{
+
+    background-color: #aaa;
+    padding: 20px;
+}
 .social ul a {
 
     text-decoration: none;
+}
+
+
+
+.fotter-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+
+.fotter-content li {
+
+    line-height: 1.6em;
+}
+
+.copy{
+
+    background-color: #4a4a4a;
+    padding: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: .8em;
+    text-align: center;
 }
